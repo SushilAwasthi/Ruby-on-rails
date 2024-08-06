@@ -1,0 +1,15 @@
+*{
+  justify-content: center;
+}
+h2{
+  text-align: center;
+}
+.container{ 
+  margin-left: 60px;
+  margin-right: 60px;
+  border: solid black;
+  border-radius: 2px;
+}
+.form-label{
+  color: brown;
+}

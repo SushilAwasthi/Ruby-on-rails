@@ -1,0 +1,18 @@
+*{
+  justify-content: center;
+}
+h1{
+  text-align: center;
+}
+p{
+  margin-left: 20px;
+}
+.box{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: solid black;
+  border-radius: 2px;
+}
+.container{
+  margin-left: 20px;
+}

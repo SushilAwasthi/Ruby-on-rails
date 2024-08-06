@@ -1,0 +1,19 @@
+<% unless comment.archived? %>
+<p>
+  <strong>Commenter:</strong>
+  <%= comment.commenter %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= comment.description %>
+</p>
+<p>
+  <%= link_to 'Destroy Comment',[comment.post , comment],
+  data: {
+    turbo_method: :delete,
+    turbo_confirm: "Are you sure?" 
+  },class:"btn btn-danger"
+  %>
+</p>
+<% end %>

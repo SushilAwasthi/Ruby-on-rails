@@ -1,0 +1,18 @@
+<%= stylesheet_link_tag'show.css'%>
+<div class="container">
+  <h2>Post</h2>
+<h5><%= @post.title %></h5>
+<p><%= @post.description %></p>
+  <p><%= link_to "Edit Post", edit_post_path(@post),class:"btn btn-primary" %></p>
+  <p><%= link_to "Destroy Post", post_path(@post), data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?" } ,class:"btn btn-danger" %></p>
+</div>
+<div class="container">
+<h2>Comments:</h2>
+<%= render @post.comments %>
+ </div>
+ <div class="container">
+<h2>Add a comment:</h2>
+<%= render 'comments/form' %>
+</div>

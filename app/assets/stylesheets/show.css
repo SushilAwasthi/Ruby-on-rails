@@ -1,0 +1,13 @@
+h2{
+  color: maroon;
+}
+.container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid black;
+  border-radius: 2px;
+  text-align: center;
+}
+.btn btn-primary{
+
+}
