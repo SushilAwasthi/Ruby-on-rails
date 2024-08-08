@@ -1,5 +1,6 @@
 h2{
   color: maroon;
+  text-decoration: underline;
 }
 .container{
   margin-top: 20px;
@@ -7,7 +8,4 @@ h2{
   border: solid black;
   border-radius: 2px;
   text-align: center;
-}
-.btn btn-primary{
-
 }
